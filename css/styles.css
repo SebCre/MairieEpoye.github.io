@@ -1,0 +1,74 @@
+
+
+body{
+    background-image: url("../images/201010_max_arboretum_01.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#Titre p{
+	position:absolute;
+	top: 130px; left: 300px;
+	color:yellow;
+	font-size: 500%;
+	display:inline-block;
+	font-style:normal;
+	font-weight:bolder;
+	/*transform:scale(1.00);*/
+	font-family:"Microsoft Sans Serif";
+	margin: 50px 200px;
+}
+#Titre:hover p{
+	position:absolute;
+	color:yellow;
+	font-size: 500%;
+	display:inline-block;
+	font-style: italic;
+	font-weight:bolder;
+	/*transform:scale(1.25);*/
+	font-family:"Microsoft Sans Serif";
+}
+
+/*figure{
+    position:relative;
+    height:153px;
+    width:153px;
+    overflow:hidden;
+}*/
+#Blason{
+    position:fixed;
+    margin-left:1100px;
+    margin-top:300px;
+    width:inherit;
+    height:inherit;
+    transition:all 1s 0s ease-in;
+    display: block;
+    float: left;
+}
+#Blason:hover{
+	/*transform:skewX(-15deg);*/	
+	scale:1.5;
+}
+figure figcaption p{
+    color:#333;
+    text-align:center;
+}
+#menu {
+	list-style-type:none;
+	margin-top:20px;
+	margin-left:500px;
+	padding: 0px;
+	font-weight: bold;
+	color:yellow;
+}
+#menu li{
+	margin-left: 20px;
+	margin-right:20px;
+	display: block;
+	float:left;
+}
+#menu li a{
+	color:black;
+  	text-align: center;
+}
